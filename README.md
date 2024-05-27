@@ -4,8 +4,8 @@ Python interaction with databases
 
 File 'mysql_demo_all.py' demonstrates how to do the following with a MySQL database using Python:
 
-Connect to MySQL as root user using mysql.connector
-Get the current MySQL version
+- Connect to MySQL as root user using mysql.connector
+- Get the current MySQL version
 Get the MySQL users
 Delete a MySQL user
 Create a MySQL user
