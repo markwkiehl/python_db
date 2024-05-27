@@ -372,7 +372,7 @@ def main():
 
 
     sql = """INSERT INTO testtmp (firstname,lastname,age,birth_date,start_utc,rec_created,cost,my_float,my_double) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s);"""
-    vals = ("Louise","Kiehl",66,"1958-09-07","2024-05-26 17:32:01","2024-05-26 17:32:01",-1234567.89,1.175494351E-38,-1.7976931348623157E+307)
+    vals = ("John","Smith",66,"1958-05-02","2024-05-26 17:32:01","2024-05-26 17:32:01",-1234567.89,1.175494351E-38,-1.7976931348623157E+307)
     # firstname,lastname,age,birth_date,start_utc,rec_created,my_float,my_double
     print("\n" + sql)
     print(vals)
